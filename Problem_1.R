@@ -27,7 +27,12 @@ rep(s, each=3)
 #i
 seq(7,21,by=1)
 
+# by = 1 is default
 #ii
+
+## NOTE: doe not assign to built-in object like t. To see what t normally does, run
+
+?t
 t<-7:21
 
 #(h)
